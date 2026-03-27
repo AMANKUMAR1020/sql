@@ -1,4 +1,4 @@
-# 🏙️ SQL Challenge: Revising the Select Query II
+# 🏙️ SQL Challenge: Revising the Select Query I
 
 ## 📝 Problem Statement
 Query **NAME** for all cities in the **CITY** table that meet the following criteria:
