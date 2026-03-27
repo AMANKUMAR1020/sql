@@ -1,7 +1,7 @@
-# 🏙️ SQL Challenge: query city with ID
+# 🏙️ SQL Challenge: select all city
 
 ## 📝 Problem Statement
-Query all columns for a city in **CITY** with the ID **1661**:
+Query All cities in the **CITY** table that meet the following criteria:
 
 ### Database Schema: CITY
 
@@ -21,25 +21,11 @@ Query all columns for a city in **CITY** with the ID **1661**:
 ### 🐬 MySQL
 
 ```sql
-SELECT * FROM CITY
-WHERE ID=1661;
+SELECT * FROM CITY;
 ```
-
-
 ###⭕ OracleSQL
 
 ```sql
-SET FEEDBACK OFF;
-SET ECHO OFF;
-SET HEADING OFF;
-SET WRAP OFF;
-SET LINESIZE 10000;
-SET TAB OFF;
-
-SELECT * FROM CITY
-WHERE ID=1661;
-
-exit;
+SELECT * FROM CITY;
 ```
-
 
